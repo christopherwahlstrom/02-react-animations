@@ -1,0 +1,10 @@
+.spoiler {
+	opacity: 0;
+	transition: all 1s;
+	background-color: #F0ADEF;
+}
+
+
+.spoiler.visible {
+	opacity: 1;
+}

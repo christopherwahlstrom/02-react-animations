@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import './Spoiler.css'
-
+import Counter from './Counter'
 
 const Spoiler = () => {
 	const [reveal, setReveal] = useState<boolean>(false)
 
-	let maybeSecret: JSX.Element | null = null
-	if( reveal ) {
-		maybeSecret = <p> Snape kills Dumbledore </p>
-	}
+	let maybeSecret = <p className={'spoiler' + (reveal ? ' visible' : '')}> Snape kills Dumbledore 
+		<Counter />
+	</p>
 
 	const buttonText = reveal ? 'Hide spoilers' : 'Reveal spoilers'
 
