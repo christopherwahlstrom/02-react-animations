@@ -1,0 +1,13 @@
+header {
+	background-color: #9AD52D;
+	padding: 1em 2rem;
+}
+header button {
+	transition: all 1.5s ease-out;
+	box-shadow: 0.5em 0.5em 0.2em 0.2em #527217;
+	margin: 0em 0.5em;
+}
+header button:hover {
+	box-shadow: 0.1em 0.1em 0em 0em #527217;
+	scale: 90%;
+}
