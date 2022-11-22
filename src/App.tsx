@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import Spoiler from './components/Spoiler'
+import DelayButton from './components/DelayButton'
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
 				
 				<Spoiler />
 				<Spoiler />
+
+				<DelayButton />
+				<DelayButton />
 			</main>
 		</div>
 	)

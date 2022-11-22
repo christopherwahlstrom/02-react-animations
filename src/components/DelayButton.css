@@ -1,0 +1,6 @@
+.delayed {
+	transition: all 1s ease-in-out;
+}
+.delayed.start {
+	rotate: 360deg;
+}

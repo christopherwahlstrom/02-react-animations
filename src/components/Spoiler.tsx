@@ -6,6 +6,7 @@ const Spoiler = () => {
 	const [reveal, setReveal] = useState<boolean>(false)
 
 	let maybeSecret = <p className={'spoiler' + (reveal ? ' visible' : '')}> Snape kills Dumbledore 
+		<br/>
 		<Counter />
 	</p>
 
