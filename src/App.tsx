@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import Spoiler from './components/Spoiler'
 
 function App() {
 
@@ -7,7 +8,10 @@ function App() {
 		<div className="App">
 			<Header />
 			<main>
-				Main
+				<h1>Main</h1>
+				
+				<Spoiler />
+				<Spoiler />
 			</main>
 		</div>
 	)
